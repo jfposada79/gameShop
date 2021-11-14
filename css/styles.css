@@ -50,6 +50,7 @@ header div span {
 header nav ul {
     display: flex;
     list-style-type: none;
+    margin-left: 635px;
 }
 
 header nav ul li {
@@ -57,4 +58,8 @@ header nav ul li {
     font-weight: 700;
     margin-right: 10px;
     font-style: normal;
+}
+
+header nav ul li:nth-child(5) {
+    margin-left: 46px;
 }
