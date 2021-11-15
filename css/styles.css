@@ -165,3 +165,43 @@ main section.products article span:nth-of-type(3) {
     font-weight: 400;
     margin-bottom: 21px;
 }
+
+main section.starsProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.starsProducts h2.title {
+    margin-top: 85px;
+}
+
+main section.starsProducts div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main section.starsProducts div article {
+    width: 361px;
+    background-image: url(../images/banner\ 1.png);
+    margin-top: 20px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 85px;
+    
+}
+
+main section.starsProducts div article:nth-of-type(2) {
+    background-image: url(../images/banner\ 2.png);
+}
+
+main section.starsProducts div article h3 {
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
