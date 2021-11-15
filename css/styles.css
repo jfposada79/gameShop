@@ -8,6 +8,9 @@
 :root {
     --first-color: #F3F3F3;
     --second-color: #D01418;
+    --third-color: #ccd0d3;
+    --fouth-color: #000000;
+    --fifth-color: #619D00;
 }
 
 body {
@@ -62,4 +65,103 @@ header nav ul li {
 
 header nav ul li:nth-child(5) {
     margin-left: 46px;
+}
+
+main {
+    background-color: var(--third-color) ;
+}
+
+main section.banner {
+    background-image: url(../images/backgroundGame.png);
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+main section.banner h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+main section.banner h4 span {
+    color: var(--second-color);
+}
+
+main section.banner button {
+    border-radius: 5px;
+    background-color: var(--second-color);
+    font-size: 25px;
+    color: var(--first-color);
+    font-weight: 500;
+    padding: 16px 61px;
+    margin-top: 30px ;
+    border: none;
+}
+
+main section.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--fouth-color);
+
+}
+
+main section.products div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+main section.products article {
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    width: 265px;
+    padding-top: 30px;
+    
+    /* padding-bottom: 30px; */
+    color: var(--fouth-color);
+    
+}
+
+main section.products article img {
+    margin-bottom: 30px;
+
+}
+
+main section.products article span {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+main section.products article span:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 21px;
+}
+
+main section.products article span:nth-of-type(2) {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+main section.products article span:nth-of-type(3) {
+    color: var(--fifth-color);
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 21px;
 }
