@@ -1,4 +1,4 @@
-### 👋 Proyect Game Shop
+# 👋 Proyect Game Shop
 #### Landing Page FLEXBOX
 ![Landing Page FLEXBOX](https://xlcomunicaciones.com/gameShop/Capture.JPG)
 
